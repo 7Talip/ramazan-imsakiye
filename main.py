@@ -90,3 +90,7 @@ st.write(iftara_ne_kadar_kaldi(sehirsec))
 st.subheader("Bugünün İmsakiyesi")
 st.table(Bugun(sehirsec))
 st.table(imsakiye(sehirsec))
+gorunen_df = Bugun(sehir).copy()
+gorunen_df["Tarih"] = gorunen_df["Tarih"].dt.strftime("%d.%m.%Y")
+st.table(gorunen_df)
+
