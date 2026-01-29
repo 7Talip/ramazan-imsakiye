@@ -1,9 +1,10 @@
 # 🌙 Ramazan İmsakiye & İftar Geri Sayım Uygulaması
 
+🔗 **Canlı Uygulama:**  
+👉 https://ramazan-imsakiye-b58b3yayohwg5l69evztcb.streamlit.app/
+
 Bu proje, Türkiye şehirleri için **imsakiye bilgilerini** otomatik olarak çekip
 **bugünün imsakiyesi** ve **iftara ne kadar kaldığını** gösteren bir **Streamlit web uygulamasıdır**.
-
-Canlı olarak web üzerinde çalışır ve herhangi bir kurulum gerektirmez.
 
 ---
 
