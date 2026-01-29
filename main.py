@@ -85,6 +85,8 @@ sehirsec = sehirsec.replace("ö", "o")
 sehirsec = sehirsec.replace("ş", "s")
 sehirsec = sehirsec.replace("ü", "u")
 
+st.subheader("İftar Kalan Süre")
+st.write(iftara_ne_kadar_kaldi(sehirsec))
 st.subheader("Bugünün İmsakiyesi")
 st.table(Bugun(sehirsec))
 st.table(imsakiye(sehirsec))
